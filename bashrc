@@ -116,5 +116,8 @@ fi
 export EDITOR='vim'
 
 #ARCANIST
-export PATH="$PATH:/opt/arcanist/bin"
-source /opt/arcanist/resources/shell/bash-completion
+if [ -d "/opt/arcanist" ]; then
+    export PATH="$PATH:/opt/arcanist/bin"
+    source /opt/arcanist/resources/shell/bash-completion
+fi
+
