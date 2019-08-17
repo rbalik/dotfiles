@@ -3,6 +3,7 @@ set gfn=Monospace\ 12
 
 set nobackup
 set nowritebackup
+colo torte
 
 " Vundle stuff
 set nocompatible
